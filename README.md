@@ -47,7 +47,7 @@ This code is complex (range actaully does quite a lot) but it's not complicated 
 `range`'s interface is intuitive and well documented.  
 ```
 for i in range(5):
-   print i
+   print(i)
 ```
 ````
 
