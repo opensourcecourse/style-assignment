@@ -1,0 +1,16 @@
+exclude: scripts/
+repos:
+- repo: https://github.com/Zac-HD/shed
+  rev: 0.10.8
+  hooks:
+    - id: shed
+      types_or: [python, pyi, markdown, rst]
+-   repo: https://github.com/PyCQA/flake8
+    rev: 3.8.3
+    hooks:
+    -   id: flake8
+        additional_dependencies:
+          - flake8-black
+          - flake8-breakpoint
+          - flake8-docstrings
+          - pep8-naming
