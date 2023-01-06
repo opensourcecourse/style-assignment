@@ -14,7 +14,8 @@ then create a new branch. Once you are done making changes, and have committed t
 to origin and open a PR through the github interface.
 
 Hint: running a linter is a good first step (e.g., [shed](https://pypi.org/project/shed/)) but also look
-for more than just the cosmetic issues a program can easily detect/fix.
+for more than just the cosmetic issues a program can easily detect/fix. You can run the tests included
+with the file by running task_1.py as a script (`python task_1.py`).
 
 
 # Task 2: The Zen (5 points)
@@ -22,7 +23,8 @@ for more than just the cosmetic issues a program can easily detect/fix.
 Create a new file called "zen.md" in this repo. Pick two of the zen of python tenants (`import this`).
 For each one you picked, create a subsection and add some explanation of the principle and a good and
 bad code example. Use [github-flavored markdown](https://github.github.com/gfm/) to nicely format the
-document, including the examples.
+document, including the examples. Next, create a new branch called "zen", commit your changes, push
+to origin, and open another PR.
 
 If [this so post](https://stackoverflow.com/a/4568759/3645626) was an answer to this task,
 it would look like this:
