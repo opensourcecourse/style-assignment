@@ -39,4 +39,15 @@ class Carddeck:
 
 
 if __name__ == "__main__":
+    # simple tests for deck class
     deck = Carddeck()
+    # test drawing cards
+    cards = deck.draw_(5)
+    for card in cards:
+        assert card not in deck.deck
+    # test putting the cards back
+    deck.Put_Back(cards)
+    assert deck.deck[-len(cards):] == cards
+    # test shuffling
+    deck.shuffle()
+    assert deck.deck[-len(cards):] != cards
