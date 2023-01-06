@@ -33,9 +33,9 @@ class Carddeck:
         return out
 
     def Put_Back(self, card_list):
-        # put cards back into the deck.
+        #put cards back into the deck.
         for card in card_list:
-            self.deck.append(card)
+            self.deck.append(card);
 
 
 if __name__ == "__main__":
@@ -47,7 +47,7 @@ if __name__ == "__main__":
         assert card not in deck.deck
     # test putting the cards back
     deck.Put_Back(cards)
-    assert deck.deck[-len(cards):] == cards
+    assert deck.deck[-len(cards) :] == cards
     # test shuffling
     deck.shuffle()
     assert deck.deck[-len(cards):] != cards
