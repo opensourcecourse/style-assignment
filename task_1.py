@@ -52,5 +52,5 @@ if __name__ == "__main__":
     deck.shuffle()
     assert deck.deck[-len(cards):] != cards
     # test joker in deck when requested
-    deck = CardDeck(includeJokers=True)
+    deck = Carddeck(includeJokers=True)
     assert "🃏" in deck.deck
