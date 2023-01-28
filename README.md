@@ -1,9 +1,10 @@
 # Style assignment
 
 We now get to work on cultivating a pythonic style. Much of this assignment (and coding style in general)
-is arbitrary, but, as we discussed in class consistency with community guidelines is important! As you work through this assignment be sure to apply the principles we discussed in class, mainly following
-the spirit of pep8. Don't let dogma mask larger issues or even lead to making code less
-readable or consistent. As always, apply your best judgement and add explanation if you think it is merited.
+is arbitrary, but consistency with community guidelines is important! As you work through this assignment 
+be sure to apply the principles we discussed in class, especially following
+the spirit of pep8. But remember, don't let dogma mask larger issues or even lead to making code less
+readable or consistent! As always, apply your best judgement and add explanation where needed.
 
 
 # Task 1: Stylize (10 points)
@@ -13,10 +14,19 @@ suggest improvements to this file. To create a pull request first clone the repo
 then create a new branch. Once you are done making changes, and have committed them, push your branch back
 to origin and open a PR through the github interface.
 
-Hint: running a linter is a good first step (e.g., [shed](https://pypi.org/project/shed/)) but also look
+Hints: 
+
+- running a linter is a good first step (e.g., [shed](https://pypi.org/project/shed/), [ruff](https://github.com/charliermarsh/ruff)) but also look
 for more than just the cosmetic issues a program can easily detect/fix. You can run the tests included
 with the file by running task_1.py as a script (`python task_1.py`).
 
+- you can install pre-commit and run the tests which grade the homework like this:
+
+```bash
+python -m pip install pre-commit
+
+pre-commit run -all
+```
 
 # Task 2: The Zen (5 points)
 
@@ -26,7 +36,7 @@ bad code example. Use [github-flavored markdown](https://github.github.com/gfm/)
 document, including the examples. Next, create a new branch called "zen", commit your changes, push
 to origin, and open another PR.
 
-If [this so post](https://stackoverflow.com/a/4568759/3645626) was an answer to this task,
+For example, if [this so post](https://stackoverflow.com/a/4568759/3645626) was an answer to this task,
 it would look like this:
 
 ````markdown
@@ -54,6 +64,9 @@ for i in range(5):
 ```
 ````
 
+If you get stuck, feel free to ask [chatGPT](https://chat.openai.com/) for inspiration. 
+
+I will include the best student examples on the course website. 
 
 # Task 3: Personal Style (10 points)
 
