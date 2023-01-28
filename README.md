@@ -58,7 +58,8 @@ you do not need to manually perform most of the steps above.
 
 This code is complex (range actaully does quite a lot) but it's not complicated because
 `range`'s interface is intuitive and well documented.  
-```
+
+```python
 for i in range(5):
    print(i)
 ```
