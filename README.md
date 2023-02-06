@@ -28,6 +28,8 @@ python -m pip install pre-commit
 pre-commit run -all
 ```
 
+**Note**: If your computer complains about the joker symbol (🃏), feel free to replace it with a "*".  
+
 # Task 2: The Zen (5 points)
 
 Create a new file called "zen.md" in this repo. Pick two of the zen of python tenants (`import this`).
